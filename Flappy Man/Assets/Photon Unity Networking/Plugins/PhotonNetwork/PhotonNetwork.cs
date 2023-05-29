@@ -3510,6 +3510,11 @@ public static class PhotonNetwork
             }
         }
     }
+
+    internal static void ConnectUsingSettings()
+    {
+        throw new NotImplementedException();
+    }
 #endif
 
 }

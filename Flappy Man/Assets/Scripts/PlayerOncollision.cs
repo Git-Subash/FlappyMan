@@ -47,6 +47,7 @@ public class PlayerOncollision : MonoBehaviour
         {
            
             PlayerAudio.PlayOneShot(BombSound, 1.0f);
+            BombParticle.Play();
             Destroy(other.gameObject);
             GameOver = true;
             Debug.Log("GameOver");

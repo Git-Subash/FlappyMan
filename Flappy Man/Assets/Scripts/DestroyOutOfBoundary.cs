@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DestroyOutOfBoundary : MonoBehaviour
 {
-    public float Rightbound = 14f;
-    public float leftbound = -20f;
+    public float Rightbound = 14.57f;
+    public float leftbound = -12.28f;
     
-    private float topbound = 28f;
-    private float lowerbound = -16.41f;
+    private float topbound = 11.1f;
+    private float lowerbound = -12f;
     
     // Start is called before the first frame update
     void Start()
