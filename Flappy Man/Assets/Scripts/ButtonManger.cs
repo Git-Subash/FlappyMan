@@ -27,4 +27,8 @@ public class ButtonManger : MonoBehaviour
         Application.Quit();
         Debug.Log("gameClosed..!!!!");
     }
+    public void LeaveRoom()
+    {
+        PhotonNetwork.LeaveRoom();
+    }
 }

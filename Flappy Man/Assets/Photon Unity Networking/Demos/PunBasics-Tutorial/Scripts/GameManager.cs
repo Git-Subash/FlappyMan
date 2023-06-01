@@ -32,8 +32,10 @@ namespace ExitGames.Demos.DemoAnimator
 
 		[Tooltip("The prefab to use for representing the player")]
 		public GameObject playerPrefab;
+		
 
 		#endregion
+	
 
 		#region Private Variables
 

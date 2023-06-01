@@ -45,7 +45,7 @@ public  class LobbyMenuScript : MonoBehaviour
 
  public void OnJoinedRoom()
  {
-    PhotonNetwork.LoadLevel("Game");
+    PhotonNetwork.LoadLevel("Room");
  }
     
 }
